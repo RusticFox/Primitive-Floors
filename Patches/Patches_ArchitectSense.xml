@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Patch>
+
+	<Operation Class="PatchOperationSequence">
+		<success>Always</success>
+		<operations>
+			<li Class="ModCheck.isModLoaded">
+				<modName>Architect Sense</modName>
+				<yourMod>Primitive Floors</yourMod>
+				<customMessageSuccess>Primitive Floors: Mod named "Architect Sense" detected, Adding SubCategory Primitive Floors.</customMessageSuccess>
+			</li>
+			<li Class="PatchOperationInsert">
+				<xpath>/Defs/Def[@Name="RF_PF_DefInsertion"]</xpath>
+				<value>
+                    <ArchitectSense.DesignationSubCategoryDef> 
+    	              <defName>SubCategory_PrimitiveFloors</defName>
+    	              <label>Primitive Floors</label>
+    	              <description>All types of primitive floors</description>
+    	              <defNames>
+                         <li>TikiFloorBamboo</li>
+                         <li>GreenBamboo</li>
+                         <li>LightBamboo</li>
+                         <li>MediumBamboo</li>
+                         <li>RedBamboo</li>
+                         <li>BambooLeaf</li>
+                         <li>TikiFloorDark</li>
+                         <li>TikiFloorLight</li>
+                         <li>TikiFloorFancy</li>
+                         <li>LogFloor</li>
+                         <li>RusticLogFloor</li>
+                         <li>RusticLogFloor2</li>
+                         <li>ThatchFloor</li>
+                         <li>BorderThatchFloor</li>
+                         <li>WeaveFloor</li>
+                         <li>LightWeaveFloor</li>
+                         <li>MediumWeaveFloor</li>
+                         <li>DarkWeaveFloor</li>
+                         <li>WovenLeafFloor</li>
+    	              </defNames>
+    	              <designationCategory>Floors</designationCategory>
+    	              <debug>false</debug>
+                    </ArchitectSense.DesignationSubCategoryDef>
+				</value>
+			</li>
+		</operations>
+	</Operation>
+	
+
+	
+</Patch>

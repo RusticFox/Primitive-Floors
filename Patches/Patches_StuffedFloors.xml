@@ -1,0 +1,251 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Patch>
+
+	<Operation Class="PatchOperationSequence">
+		<success>Always</success>
+		<operations>
+			<li Class="ModCheck.isModLoaded">
+				<modName>Stuffed Floors</modName>
+				<yourMod>Primitive Floors</yourMod>
+				<customMessageSuccess>Primitive Floors: Mod named "Stuffed Floors" detected, Stuffing Floors.</customMessageSuccess>
+			</li>
+			<li Class="PatchOperationInsert">
+				<xpath>/Defs/Def[@Name="RF_PF_DefInsertion"]</xpath>
+				<value>
+  <StuffedFloors.FloorTypeDef ParentName="StuffedFloorsWoodBasicBase">
+    <defName>TikiFloorBamboo</defName>
+    <label>Tiki Floor (Bamboo)</label>
+    <renderPrecedence>250</renderPrecedence>
+    <description>A Nice Tiki Floor</description>
+    <texturePath>Things/Floors/Floor/TikiFloorBamboo</texturePath>
+	<uiIconPath>Things/Floors/Icon/TikiFloorBambooIco</uiIconPath>
+	<burnedDef>BurnedWoodPlankFloor</burnedDef>
+    <statBases>
+      <WorkToBuild>85</WorkToBuild>
+	  <Flammability>0.22</Flammability>
+      <Beauty>1</Beauty>
+    </statBases>
+    <stuffCategories>
+        <li>Woody</li>
+    </stuffCategories>
+    <stuffCost>15</stuffCost>
+    <constructEffect>ConstructWood</constructEffect>
+  </StuffedFloors.FloorTypeDef>
+  <StuffedFloors.FloorTypeDef ParentName="StuffedFloorsWoodBasicBase">
+    <defName>GreenBamboo</defName>
+    <label>Green Bamboo</label>
+    <renderPrecedence>250</renderPrecedence>
+    <description>A Nice bamboo Floor</description>
+    <texturePath>Things/Floors/Floor/GreenBamboo</texturePath>
+	<uiIconPath>Things/Floors/Icon/GreenBambooIco</uiIconPath>
+	<burnedDef>BurnedWoodPlankFloor</burnedDef>
+    <statBases>
+      <WorkToBuild>85</WorkToBuild>
+	  <Flammability>0.22</Flammability>
+      <Beauty>1</Beauty>
+    </statBases>
+    <stuffCategories>
+        <li>Woody</li>
+    </stuffCategories>
+    <stuffCost>15</stuffCost>
+    <constructEffect>ConstructWood</constructEffect>
+  </StuffedFloors.FloorTypeDef>
+  <StuffedFloors.FloorTypeDef ParentName="StuffedFloorsWoodBasicBase">
+    <defName>LightBamboo</defName>
+    <label>Light Bamboo</label>
+    <renderPrecedence>250</renderPrecedence>
+    <description>A Nice light  bamboo Floor</description>
+    <texturePath>Things/Floors/Floor/LightBamboo</texturePath>
+	<uiIconPath>Things/Floors/Icon/LightBambooIco</uiIconPath>
+	<burnedDef>BurnedWoodPlankFloor</burnedDef>
+    <statBases>
+      <WorkToBuild>85</WorkToBuild>
+	  <Flammability>0.22</Flammability>
+      <Beauty>1</Beauty>
+    </statBases>
+    <stuffCategories>
+        <li>Woody</li>
+    </stuffCategories>
+    <stuffCost>15</stuffCost>
+    <constructEffect>ConstructWood</constructEffect>
+  </StuffedFloors.FloorTypeDef>
+  <StuffedFloors.FloorTypeDef ParentName="StuffedFloorsWoodBasicBase">
+    <defName>MediumBamboo</defName>
+    <label>Medium Bamboo</label>
+    <renderPrecedence>250</renderPrecedence>
+    <description>A Nice medium bamboo Floor</description>
+    <texturePath>Things/Floors/Floor/MediumBamboo</texturePath>
+	<uiIconPath>Things/Floors/Icon/MediumBambooIco</uiIconPath>
+	<burnedDef>BurnedWoodPlankFloor</burnedDef>
+    <statBases>
+      <WorkToBuild>85</WorkToBuild>
+	  <Flammability>0.22</Flammability>
+      <Beauty>1</Beauty>
+    </statBases>
+    <stuffCategories>
+        <li>Woody</li>
+    </stuffCategories>
+    <stuffCost>15</stuffCost>
+    <constructEffect>ConstructWood</constructEffect>
+  </StuffedFloors.FloorTypeDef>
+  <StuffedFloors.FloorTypeDef ParentName="StuffedFloorsWoodBasicBase">
+    <defName>RedBamboo</defName>
+    <label>Red Bamboo</label>
+    <renderPrecedence>250</renderPrecedence>
+    <description>A Nice red bamboo Floor</description>
+    <texturePath>Things/Floors/Floor/RedBamboo</texturePath>
+	<uiIconPath>Things/Floors/Icon/RedBambooIco</uiIconPath>
+	<burnedDef>BurnedWoodPlankFloor</burnedDef>
+    <statBases>
+      <WorkToBuild>85</WorkToBuild>
+	  <Flammability>0.22</Flammability>
+      <Beauty>1</Beauty>
+    </statBases>
+    <stuffCategories>
+        <li>Woody</li>
+    </stuffCategories>
+    <stuffCost>15</stuffCost>
+    <constructEffect>ConstructWood</constructEffect>
+  </StuffedFloors.FloorTypeDef>
+  <StuffedFloors.FloorTypeDef ParentName="StuffedFloorsWoodBasicBase">
+    <defName>BambooLeaf</defName>
+    <label>Bamboo Leaf</label>
+    <renderPrecedence>250</renderPrecedence>
+    <description>A Nice bamboo leaf Floor</description>
+    <texturePath>Things/Floors/Floor/BambooLeaf</texturePath>
+	<uiIconPath>Things/Floors/Icon/BambooLeafIco</uiIconPath>
+	<burnedDef>BurnedWoodPlankFloor</burnedDef>
+    <statBases>
+      <WorkToBuild>85</WorkToBuild>
+	  <Flammability>0.22</Flammability>
+      <Beauty>1</Beauty>
+    </statBases>
+    <stuffCategories>
+        <li>Woody</li>
+    </stuffCategories>
+    <stuffCost>15</stuffCost>
+    <constructEffect>ConstructWood</constructEffect>
+  </StuffedFloors.FloorTypeDef>
+  <StuffedFloors.FloorTypeDef ParentName="StuffedFloorsWoodBasicBase">
+    <defName>TikiFloorDark</defName>
+    <label>Tiki Floor (Dark)</label>
+    <renderPrecedence>250</renderPrecedence>
+    <description>A Nice Dark Tiki Floor</description>
+    <texturePath>Things/Floors/Floor/TikiFloorDark</texturePath>
+	<uiIconPath>Things/Floors/Icon/TikiFloorDarkIco</uiIconPath>
+	<burnedDef>BurnedWoodPlankFloor</burnedDef>
+    <statBases>
+      <WorkToBuild>85</WorkToBuild>
+	  <Flammability>0.22</Flammability>
+      <Beauty>1</Beauty>
+    </statBases>
+    <stuffCategories>
+        <li>Woody</li>
+    </stuffCategories>
+    <stuffCost>15</stuffCost>
+    <constructEffect>ConstructWood</constructEffect>
+  </StuffedFloors.FloorTypeDef>
+  <StuffedFloors.FloorTypeDef ParentName="StuffedFloorsWoodBasicBase">
+    <defName>TikiFloorLight</defName>
+    <label>Tiki Floor (Light)</label>
+    <renderPrecedence>250</renderPrecedence>
+    <description>A Nice Light Tiki Floor</description>
+    <texturePath>Things/Floors/Floor/TikiFloorLight</texturePath>
+	<uiIconPath>Things/Floors/Icon/TikiFloorLightIco</uiIconPath>
+	<burnedDef>BurnedWoodPlankFloor</burnedDef>	
+    <statBases>
+      <WorkToBuild>85</WorkToBuild>
+	  <Flammability>0.22</Flammability>
+      <Beauty>1</Beauty>
+    </statBases>
+    <stuffCategories>
+        <li>Woody</li>
+    </stuffCategories>
+    <stuffCost>15</stuffCost>
+    <constructEffect>ConstructWood</constructEffect>
+  </StuffedFloors.FloorTypeDef>
+  <StuffedFloors.FloorTypeDef ParentName="StuffedFloorsWoodBasicBase">
+    <defName>LogFloor</defName>
+    <label>Log Floor</label>
+    <renderPrecedence>250</renderPrecedence>
+    <description>A Nice Log Floor</description>
+    <texturePath>Things/Floors/Floor/LogFloor</texturePath>
+	<uiIconPath>Things/Floors/Icon/LogFloorIco</uiIconPath>	
+	<burnedDef>BurnedWoodPlankFloor</burnedDef>
+    <statBases>
+      <WorkToBuild>85</WorkToBuild>
+	  <Flammability>0.22</Flammability>
+      <Beauty>1</Beauty>
+    </statBases>
+    <stuffCategories>
+        <li>Woody</li>
+    </stuffCategories>
+    <stuffCost>15</stuffCost>
+    <constructEffect>ConstructWood</constructEffect>
+  </StuffedFloors.FloorTypeDef>
+  <StuffedFloors.FloorTypeDef ParentName="StuffedFloorsWoodBasicBase">
+    <defName>RusticLogFloor</defName>
+    <label>Rustic Log Floor Medium</label>
+    <renderPrecedence>250</renderPrecedence>
+    <description>A Nice Rustic Log Floor</description>
+    <texturePath>Things/Floors/Floor/RusticLogFloor</texturePath>
+	<uiIconPath>Things/Floors/Icon/RusticLogFloorIco</uiIconPath>	
+	<burnedDef>BurnedWoodPlankFloor</burnedDef>
+    <statBases>
+      <WorkToBuild>85</WorkToBuild>
+	  <Flammability>0.22</Flammability>
+      <Beauty>1</Beauty>
+    </statBases>
+    <stuffCategories>
+        <li>Woody</li>
+    </stuffCategories>
+    <stuffCost>15</stuffCost>
+    <constructEffect>ConstructWood</constructEffect>
+  </StuffedFloors.FloorTypeDef>
+  <StuffedFloors.FloorTypeDef ParentName="StuffedFloorsWoodBasicBase">
+    <defName>RusticLogFloor2</defName>
+    <label>Rustic Log Floor Light</label>
+    <renderPrecedence>250</renderPrecedence>
+    <description>Another Nice Rustic Log Floor</description>
+    <texturePath>Things/Floors/Floor/RusticLogFloor2</texturePath>
+	<uiIconPath>Things/Floors/Icon/RusticLogFloor2Ico</uiIconPath>	
+	<burnedDef>BurnedWoodPlankFloor</burnedDef>
+    <statBases>
+      <WorkToBuild>85</WorkToBuild>
+	  <Flammability>0.22</Flammability>
+      <Beauty>1</Beauty>
+    </statBases>
+    <stuffCategories>
+        <li>Woody</li>
+    </stuffCategories>
+    <stuffCost>15</stuffCost>
+    <constructEffect>ConstructWood</constructEffect>
+  </StuffedFloors.FloorTypeDef>
+  <StuffedFloors.FloorTypeDef ParentName="StuffedFloorsWoodBasicBase">
+    <defName>TikiFloorFancy</defName>
+    <label>Tiki Floor (Fancy)</label>
+    <renderPrecedence>250</renderPrecedence>
+    <description>A Nice Fancy Tiki Floor</description>
+    <texturePath>Things/Floors/Floor/TikiFloorFancy</texturePath>
+	<uiIconPath>Things/Floors/Icon/TikiFloorFancyIco</uiIconPath>
+	<burnedDef>BurnedWoodPlankFloor</burnedDef>	
+    <statBases>
+      <WorkToBuild>120</WorkToBuild>
+	  <Flammability>0.22</Flammability>
+      <Beauty>3</Beauty>
+    </statBases>
+	<costList>
+	  <Gold>60</Gold>
+	</costList>
+    <stuffCategories>
+        <li>Woody</li>
+    </stuffCategories>
+    <stuffCost>15</stuffCost>
+    <constructEffect>ConstructWood</constructEffect>
+  </StuffedFloors.FloorTypeDef>
+				</value>
+			</li>
+		</operations>
+	</Operation>
+	
+</Patch>
